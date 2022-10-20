@@ -1,0 +1,47 @@
+.depoimento__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 16em auto;
+  background-color: var(--bg-vermelho);
+  width: 58%;
+  border-radius: 16px;
+}
+
+.depoimento__conteudo {
+  padding: 4em 3em;
+}
+
+.depoimento__titulo {
+  font-family: var(--font-inter);
+  color: var(--vermelho);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.depoimento__descricao {
+  font-family: var(--font-inter);
+  color: var(--preto);
+  font-size: 36px;
+  padding: 1em 0em;
+}
+
+.perfil__img {
+  width: 6%;
+}
+
+.perfil__nome {
+  font-family: var(--font-inter);
+  color: var(--preto);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0.5em 0;
+}
+
+.perfil__cargo {
+  font-family: var(--font-inter);
+  color: var(--cinza);
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,24 @@
+@import url("/style/header.css");
+@import url("/style/banner.css");
+@import url("/style/metrica.css");
+@import url("/style/vagas.css");
+@import url("/style/depoimento.css");
+@import url("/style/rodape.css");
+:root {
+  --vermelho: #8e2424;
+  --branco: #ffffff;
+  --bg-vermelho: #fdf8f8;
+  --bg-footer: #f9fafb;
+  --cinza-claro: #eaecf0;
+  --cinza-medio: #d0d5dd;
+  --cinza-azulado: #98a2b3;
+  --cinza: #667085;
+  --cinza-escuro: #3a404e;
+  --preto: #101828;
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  width: 100vw;
+  font-size: 16px;
+}

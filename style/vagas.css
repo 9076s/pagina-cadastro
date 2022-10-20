@@ -1,0 +1,84 @@
+.vagas__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 16em 4em 4em 4em;
+}
+
+.vagas__titulo {
+  font-family: var(--font-inter);
+  color: var(--vermelho);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.vagas__subtitulo {
+  font-family: var(--font-inter);
+  color: var(--preto);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.vagas__descricao-empresa {
+  font-family: var(--font-inter);
+  color: var(--cinza);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+
+.imagem__reuniao {
+  border-radius: 5px;
+}
+
+.design {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.vagas__ofertadas-titulo {
+  font-family: var(--font-inter);
+  color: var(--preto);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.vagas__opcoes {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  border: solid 2px var(--cinza-claro);
+  border-radius: 16px;
+  width: 50vw;
+}
+
+.vagas__link {
+  font-family: var(--font-inter);
+  color: var(--preto);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.vagas__link:hover {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.regime {
+  margin: 2em 0;
+  display: flex;
+}
+
+.vagas__regime {
+  font-family: var(--font-inter);
+  color: var(--cinza);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.vaga__periodo {
+  margin-right: 2em;
+}
